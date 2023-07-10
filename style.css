@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* nav bar  */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+/* hover effect */
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid #ffff;
+}
+/* box one  */
+.logo{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('image/amazon_logo.png');
+}
+
+/* box 2  */
+.nav-address{
+    padding: 5px 8px 0px 6px;
+    width: 88.64px;
+    height: 50px;
+}
+.nav-address p{
+    margin-left: 15px;
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+.address-icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.address-icon p{
+    margin-left: 2px;
+    font-size: 1rem;
+    color: #ffff;
+}
+/* box - 3  */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+.nav-search:hover{
+    border: 2px solid #FF9900;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 70px;
+    height: 37px;
+    text-align: center;
+    /* padding: 0px 5px 0px 6px; */
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+
+.search-icon{
+    background-color: #FF9900;
+    font-size: 1.2rem;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+/* box 4  */
+.nav-sign-in{
+    padding: 10px 4px;
+}
+
+.nav-sign-in .first-line{
+    font-size: 0.8rem;
+}
+
+.nav-sign-in .second-line{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.nav-return{
+    padding: 10px 3px;
+}
+
+.nav-return .first-line{
+    font-size: 0.8rem;
+}
+
+.nav-return .second-line{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* box 5  */
+.nav-shopping-cart{
+    padding: 5px 10px;
+}
+
+/* panel */
+.panel{
+    background-color: #142444;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panel-option{
+    width: 1200px;
+    display: flex;
+}
+
+.panel-option p{
+    padding: 2px 10px ;
+}
+
+.panel-all{
+    padding: 2px 5px;
+}
+
+.panel-deals{
+    font-weight: bold;
+    padding: 2px 5px ;
+}
+
+
+/* hero section  */
+.hero-section{
+    background-image: url(image/hero2_image.jpg);
+    height: 320px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-message{
+    font-size: 1rem;
+    background-color: rgb(246, 246, 246);
+    color: black;
+    height: 35px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.hero-message a{
+    color: #019c7a;
+    text-decoration: none;
+}
+
+.hero-message a:hover{
+    color: rgb(255, 132, 0);
+}
+/* shop-selection */
+.shop-selection{
+    padding: 20px;
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+}
+.shop-selection .box{
+    border-radius: 1px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box-img{
+    height: 300px;
+    width: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.8rem ;
+    margin-bottom: 0.8rem;
+}
+.box-content{
+    padding: 0px 1rem;
+}
+
+.box-content h2{
+    font-size: 1.2rem;
+}
+
+.box-content p{
+    color: #019c7a;
+}
+
+.box-content p:hover{
+    color: #FF9900;
+}
+
+.multiple .box .box-img{
+    width: 290px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    justify-items: center; 
+    align-items: center;
+}
+
+.multiple .box .box-img div{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
