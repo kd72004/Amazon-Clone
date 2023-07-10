@@ -22,5 +22,9 @@ The styling of the Amazon homepage clone is achieved using vanilla CSS, without 
 
  #Screen shots :
  ![image](https://github.com/kd72004/Amazon-Clone/assets/109151753/f6a127b2-8ced-40f3-a245-95bd7fb623b2)
+
+ 
 ![image](https://github.com/kd72004/Amazon-Clone/assets/109151753/f431f14d-5a6c-4d75-925b-762ceac45d9c)
+
+
 ![image](https://github.com/kd72004/Amazon-Clone/assets/109151753/8827855c-6180-4a9f-9bfc-e334e7cb7c60)
